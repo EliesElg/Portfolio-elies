@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+    float: right;
+    font-size: 15px;
+    font-weight:500;
+}
+
+li {
+    display: inline-block;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#navbar {
+margin-top: 1%;
+margin-right: 10%;
+text-align: center;
+
+}
+
+header {
+    position: absolute;
+    background-color: #f5cdc4;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo{ 
+    position: absolute;
+    float: left;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 47px;
+    padding-left: 10.5%;
+    font-weight: 400;
+}
+
+.pinkbgheader {
+    position: relative;
+    background-color: #f5cdc4;
+    height: auto;
+    padding-bottom: 11.5rem;
+    
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 220px;
+    
+}
+  
+#presentation>h1 {
+    height: auto;
+    margin: 0;
+    font-size: 55px;
+    font-weight:350;
+
+}
+
+h2 { 
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+
+#photo {
+    margin-top: 17px;
+    border: solid #000;
+    width: 200px;
+    border-radius:50%;
+    border-width:px;
+    
+}
+
+.blackbg {
+    background-color: rgb(18, 18, 18);
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.pinkbg {
+    background-color: #f5cdc4;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-height: 20rem;
+}
+
+#aboutContainer {
+    height:auto;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10.5%;
+
+}
+
+#portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#aboutme {
+    color:#f5cdc4 ;
+    font-size: 55px;
+    font-weight:600 ;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+}
+
+.aboutmeP {
+    color:white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.9;
+}
+#htmlAbout {
+    background-color: #e44d26;
+    
+}
+
+#cssAbout {
+    background-color: #264de4;
+}
+
+#jsAbout {
+    background-color : #f7e018;
+
+}
+
+#phpAbout {
+    background-color:#8993c0;
+    padding-right: 0.5px;
+}
+
+#jsAbout, #cssAbout, #htmlAbout, #phpAbout, #webitech {
+    color: black;
+    font-weight: bold;
+}
+
+#webitech{
+    background-color: rgb(26, 130, 248);
+}
+
+#portfolioTitle {
+    font-size:55px;
+}
+
+#comingsoon {
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+#stackTitle {
+    color: #f5cdc4;
+    font-size: 55px;
+}
+
+#stackContainer{
+margin-left: 20%;
+margin-right: 20%;
+}
+
+#imglogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.logos {
+    margin-top: 2.5rem;
+    height: 6rem;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%); 
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(100%); 
+    -o-transition: .5s ease-in-out;
+    padding: 0px;
+
+    
+}
+
+.logos:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+}
+
+#contactTitle {
+    color: black;
+    font-size: 55px;
+}
+
+#email {
+    font-size: 40px;
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.pinkbgContact {
+    background-color: #f5cdc4;
+    padding-top: 3rem;
+    padding-bottom: 9rem;
+}
+
+#footer {
+    background-color:#f5cdc4;
+}
+
+#linkedinLogo {
+    height: 2.5rem;
+    margin-left: 15%;
+    margin-bottom: 1rem;
+}
