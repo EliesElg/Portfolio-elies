@@ -7,7 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">   <link rel="stylesheet" href="default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="default.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,16 +23,16 @@
                         <div id="logo">EE</div>
                         <ul>
                             <li>
-                                <a href="#aboutContainer">ABOUT</a>
+                                <a href="#aboutScroll">ABOUT</a>
                             </li>
                             <li>
-                                <a href="#portfolioContainer">PORTFOLIO</a>
+                                <a href="#portfolioScroll">PORTFOLIO</a>
                             </li>
                             <li>
-                                <a href="#stackContainer">STACK</a>
+                                <a href="#stackScroll">STACK</a>
                             </li>
                             <li>
-                                <a href="">CONTACT</a>
+                                <a href="#stackScroll">CONTACT</a>
                             </li>
                         </ul>
                     </nav>
@@ -42,24 +43,27 @@
                 <img src="images/Elies22.jpg" alt="user" id="photo">
             </div>
         </div>
-        <div class="blackbg">
+        <div class="blackbg" id="aboutScroll">
             <div id="aboutContainer">
                 <h2 id="aboutme">ABOUT ME</h2>
                 <p class="aboutmeP">Hi ! My name is Elies and i am a web developper.
-                    I went to a coding school whose pedagogy didn't suit me at all but I still stayed a while to learn the basics such as <span id="htmlAbout">HTML</span>, <span id="cssAbout">CSS</span>, <span id="jsAbout">JavaScript</span> and <span id="phpAbout">PHP</span> (learning symfony these days). <br>
+                    I went to a coding school where i learned <span id="htmlAbout">HTML</span>, <span id="cssAbout">CSS</span>, <span id="jsAbout">JavaScript</span> and <span id="phpAbout">PHP</span>. <br>
                 </p>
-                <p class="aboutmeP">Currently im looking for a company (3 weeks wor 1 week school) to achieve my year of apprenticeship at <span id="webitech">Webitech</span>. </p>
-                    <p class="aboutmeP">I would say that my main assets are my curiosity, my thirst for knowledge and the passion I have for new technologies, so if I have to learn other stacks to join your company it would be a pleasure !</p>
+                <p class="aboutmeP">Currently im looking for a company for my Bachelor (3 weeks work and just 1 day at school after the 6 training weeks  the free time remaining are for school projects, and during the training 2 days work 3 days school ) to achieve my year of apprenticeship at <span id="webitech">ETNA</span>. </p>
+                    <p class="aboutmeP">I would say that my main assets are my curiosity, my thirst for knowledge and the passion I have for new technologies, so if I have to learn other stacks to join your company it would be a pleasure ! And after the weeks of training i will have more skills that i could apply in company.</p>
             </div>
         </div>
-        <div class="pinkbg">
-            <div id="portfolioContainer">
+        <div class="pinkbg" id="portfolioScroll">
+            <div id="portfolioContainer" >
                 <h2 id="portfolioTitle">MY PORTFLOIO</h2>
-                <p id="comingsoon" class=""> Im currently working on projects, coming soon !</p>
+                <p id="comingsoon" class=""> Im currently working on projects, more are coming !</p>
+                <div id="portfolioImages">
+                    <a href="http://gaming-shop.42web.io/" target="_blank"><img src="images/Capture.PNG" alt="Gaming Shop" class="GamingShop"></a>
+                </div>
             </div>
         </div>
-        <div class="blackbg">
-            <div id="stackContainer">
+        <div class="blackbg" id="stackScroll">
+            <div id="stackContainer" >
                 <h2 id="stackTitle"> MY STACK</h2>
                 <div id="imglogos">
                     <img src="images/html2.svg.png" alt="html5" class="logos">
@@ -70,7 +74,7 @@
                 </div>
             </div>
         </div>
-        <div class="pinkbgContact">
+        <div class="pinkbgContact" id="contactScroll">
             <div id="contactContainer">
                 <h2 id="contactTitle"> FEEL FREE TO CONTACT ME</h2>
                 <a href="mailto:elieselguiraa@gmail.com" id="email">Elieselguiraa@gmail.com</a>

@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -247,4 +248,35 @@ margin-right: 20%;
     height: 2.5rem;
     margin-left: 15%;
     margin-bottom: 1rem;
+}
+
+#portfolioImages
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+}
+
+.GamingShop 
+{
+ height: 200px;
+ width:350px ;
+ border-radius: 3%;
+ -webkit-transform: scale(1);
+ transform: scale(1);
+ -webkit-transition: .3s ease-in-out;
+ transition: .3s ease-in-out;
+ 
+}
+
+.GamingShop:hover 
+{
+-webkit-transform: scale(1.3);
+transform: scale(1.1);
+}
+
+a:hover
+{
+    text-decoration: underline;
 }
