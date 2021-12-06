@@ -269,6 +269,7 @@ margin-right: 20%;
  transform: scale(1);
  -webkit-transition: .3s ease-in-out;
  transition: .3s ease-in-out;
+ padding-right:20px;
  
 }
 
